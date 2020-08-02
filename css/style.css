@@ -1,12 +1,74 @@
 /* 
-PINK:   #FF8CEB
-BLUE:   #0865FF
-YELLOW: #F7D800
+PINK:         #FF8CEB
+LIGHT PINK:   #FFCAFF
+BLUE:         #0865FF
+YELLOW:       #F7D800
 */
 
 html {
+font-family: Helvetica, sans-serif;
+font-weight: 500;
+font-size: 1.4em;
 }
 
 body {
   background-color: #FF8CEB;
+}
+
+.logo {
+	display:block;
+	width:14%;
+	margin: 25px auto 30px auto;
+	text-align: center;
+}
+
+a.button {
+	text-align:center;
+	width:35%;
+	margin:25px auto;
+	background-color: white;
+	color: #0865FF;
+	padding:15px 30px;
+	display:block;
+	text-decoration:none;
+	border-radius:50px;
+	box-shadow: 5px 10px #0865FF;
+}
+a.button:hover {
+	color: #F7D800;
+	box-shadow: 5px 10px #F7D800;
+}
+
+a.button:active {
+	color: #FFCAFF;
+	box-shadow: 2px 7px #FFCAFF;
+}
+
+a.button:last-of-type {
+}
+
+.footer {
+	font-size:.5em;
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+	margin-top:3%;
+}
+
+@media screen and (max-width: 700px) {
+	html {font-size:1.2em;font-weight:510;}
+	.logo {width:35%;margin-bottom:45px;}
+	a.button{width:80%;}
+	.footer {margin-top:50px;}
+
+}
+
+
+@media screen and (max-width: 900px) {
+	.logo {width:35%;}
+	a.button {width:80%;}
+	.footer {margin-top:50px;}
 }
