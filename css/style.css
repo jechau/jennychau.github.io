@@ -59,7 +59,7 @@ a.button:last-of-type {
 }
 
 @media screen and (max-width: 700px) {
-	html {font-size:1.2em;font-weight:600;}
+	html {font-size:1.2em;font-weight:500;}
 	.logo {width:35%;margin-bottom:45px;}
 	a.button{width:80%;}
 	.footer {margin-top:50px;}
