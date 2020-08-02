@@ -1,2 +1,12 @@
+/* 
+PINK:   #FF8CEB
+BLUE:   #0865FF
+YELLOW: #F7D800
+*/
+
 html {
+}
+
+body {
+  background-color: #FF8CEB;
 }
