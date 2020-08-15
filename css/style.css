@@ -17,7 +17,7 @@ body {
 
 .logo {
 	display:block;
-	width:14%;
+	width:150px;
 	margin: 25px auto 30px auto;
 	text-align: center;
 }
@@ -60,7 +60,7 @@ a.button:last-of-type {
 
 @media screen and (max-width: 700px) {
 	html {font-size:1.2em;font-weight:500;}
-	.logo {width:35%;margin-bottom:45px;}
+	.logo {margin-bottom:45px;}
 	a.button{width:80%;}
 	.footer {margin-top:50px;}
 
@@ -68,7 +68,7 @@ a.button:last-of-type {
 
 
 @media screen and (max-width: 900px) {
-	.logo {width:35%;}
+	.logo {}
 	a.button {width:80%;}
 	.footer {margin-top:50px;}
 }
