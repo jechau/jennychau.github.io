@@ -162,7 +162,7 @@ button:active {
 }
 
 .about > div {
-    flex: 0 0 50%;
+    flex: 0 0 auto;
     margin-bottom: 25px;
 }
 
