@@ -34,6 +34,12 @@ a:hover {
     line-height: .8em
 }
 
+.social {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 2.5em;
+}
+
 form {}
 
 input,
@@ -58,15 +64,16 @@ form li {
 
 
 .shop {
-    width:100%;
+    width: 100%;
     margin-bottom: 25px;
 }
+
 .shop img:last-child {
     margin-bottom: 0;
 }
 
 .details ul {
-    margin-left:50px;
+    margin-left: 50px;
 }
 
 h2 {
@@ -78,20 +85,20 @@ h2 {
 }
 
 h2 a {
-    color:#0865FF
+    color: #0865FF
 }
 
 h3 {
-    font-size:1.2em;
-    font-weight:500;
-    margin-bottom:25px;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 25px;
 }
 
 h4 {
     text-transform: uppercase;
-    text-align:center;
-    font-size:1em;
-    margin:25px
+    text-align: center;
+    font-size: 1em;
+    margin: 25px
 }
 
 
@@ -99,37 +106,54 @@ label {
     display: block;
 }
 
+form {
+    text-align: center;
+    width: 100%;
+}
+
 input,
-button {}
+button,
+textarea {
+    border: 1px solid lightgray;
+    display: block;
+    margin: 0 auto;
+}
 
 textarea {}
 
 input,
 textarea {
-    width: 50%;
-    padding: 10px;
+    width: 70%;
+    padding: 15px;
+}
+
+input:hover,
+textarea:hover{
+    border-color: lightskyblue;
 }
 
 textarea {
-    height: 150px;
+    display: block;
+    height: 200px;
     overflow: scroll;
 }
 
 button {
     width: 10%;
     padding: 10px;
-    box-shadow: 2px 3px gray;
+    box-shadow: 2px 3px lightgray;
     margin-top: 0;
 }
 
 button:hover {
-    border: 1px solid lightgray;
-    box-shadow: 2px 3px lightgray;
+    color: lightskyblue;
+    border: 1px solid lightskyblue;
+    box-shadow: 2px 3px lightskyblue;
 }
 
 button:active {
-    border: 1px solid black;
-    box-shadow: 1px 2px black;
+    border: 1px solid lightgray;
+    box-shadow: 1px 2px lightgray;
 }
 
 .about,
@@ -157,8 +181,15 @@ button:active {
     flex: 0 0 50%;
 }
 
-.left {text-align:left;float:left;}
-.right {text-align:right;float:right;}
+.left {
+    text-align: left;
+    float: left;
+}
+
+.right {
+    text-align: right;
+    float: right;
+}
 
 
 .profile {
@@ -179,9 +210,9 @@ p {
 
 .top {
     position: fixed;
-    bottom:0;
-    right:0;
-    font-size:3em;
+    bottom: 0;
+    right: 0;
+    font-size: 3em;
     line-height: 0;
     margin: 25px;
 }
@@ -355,6 +386,7 @@ a.currentlink {
     h3 {
         text-align: center;
     }
+
     .profile {
         display: block;
         width: 100%;
