@@ -162,7 +162,7 @@ button:active {
 }
 
 .about > div {
-    flex: 0 0 1;
+    flex: 0 0 100%;
     margin-bottom: 25px;
 }
 
@@ -250,7 +250,6 @@ a.currentlink {
 
 .nav,
 .header {
-    background-color: ;
 }
 
 .container {
@@ -298,7 +297,6 @@ a.currentlink {
 }
 
 .main {
-    background-color: ;
     line-height: 1.5em;
     grid-area: main;
     margin: 0 50px 50px 50px;
