@@ -249,7 +249,7 @@ a.currentlink {
 
 .nav {
     text-align: center;
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: 500;
     grid-area: nav;
     list-style: none;
