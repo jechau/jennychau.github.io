@@ -184,6 +184,7 @@ button:active {
     width: 20%;
     border-radius: 50%;
     display:block;
+    margin:25px auto;
 }
 
 p {
