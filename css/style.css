@@ -185,6 +185,7 @@ button:active {
     width: 20%;
     margin-right: 25px;
     margin-bottom: 25px;
+    border-radius: 50%;
 }
 
 p {
