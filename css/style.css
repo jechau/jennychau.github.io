@@ -285,6 +285,17 @@ a.currentlink {
     grid-area: footer;
 }
 
+.footer p {
+    font-size:1.5em;
+    text-align:center;
+    display:block;
+}
+
+.footer p::before {
+  content: "\a";
+  white-space: pre;
+}
+
 .gallery {
     line-height: 0;
     margin: 0;
