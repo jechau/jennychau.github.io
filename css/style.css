@@ -40,6 +40,11 @@ a:hover {
     display:block;
 }
 
+.social::before {
+    content: "\A";
+    white-space: pre;
+}
+
 input,
 textarea,
 button {
