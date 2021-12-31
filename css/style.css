@@ -285,8 +285,8 @@ a.currentlink {
     grid-area: footer;
 }
 
-.footer #social {
-    font-size:1em;
+.footer p.social::before {
+    font-size:1.5em;
     content: "\a";
     white-space: pre;
 }
