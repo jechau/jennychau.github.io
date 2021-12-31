@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/contact.js" defer></script>
 </head>
 
 <body>
@@ -24,23 +25,6 @@
 
         <div class="main">
             <h2>Contact Me</h2>
-
-<script>
-    document.querySelector("form").addEventListener("submit", handleSubmit);
-
-const handleSubmit = (e) => {
-  e.preventDefault()
-  let myForm = document.getElementById('pizzaOrder');
-  let formData = new FormData(myForm)
-  fetch('/', {
-    method: 'POST',
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams(formData).toString()
-  }).then(() => console.log('Form successfully submitted')).catch((error) =>
-    alert(error))
-}
-
-            </script>
             <form name="contact" method="POST" data-netlify="true">
                 <p>
                     <label>For any questions or inquiries, email me at jenny@jechau.com or use the contact form below.
