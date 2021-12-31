@@ -285,12 +285,6 @@ a.currentlink {
     grid-area: footer;
 }
 
-.footer p.social::before {
-    font-size:1.5em;
-    content: "\a";
-    white-space: pre;
-}
-
 .gallery {
     line-height: 0;
     margin: 0;
